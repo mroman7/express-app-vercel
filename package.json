@@ -1,0 +1,25 @@
+{
+  "name": "express-app-vercel",
+  "version": "1.0.0",
+  "description": "Express App Vercel",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js", 
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1", 
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1"
+  }
+}
