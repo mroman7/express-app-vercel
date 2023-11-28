@@ -15,6 +15,9 @@ router.get("/", (req, res) => {
 
 
 router.get("/todos", todoController.getTodos);
-
+router.post("/todos/create", todoController.createTodo);
+router.post("/todos/update", todoController.updateTodo);
+router.post("/todos/update-status", todoController.updateTodoStatus);
+router.delete("/todos/delete", todoController.deleteTodo);
 
 module.exports = router;
